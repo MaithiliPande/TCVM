@@ -34,7 +34,7 @@ public class OrderDAOImpl implements OrderDAO {
 			throw new NullObjectException("Order cannot be null");
 		}
 		
-		List<Order> orders = new ArrayList<>();
+		List<Order> orders = getOrders();
 		orders.add(order);
 		
 		JsonUtil.writeJSONToFile(orders);

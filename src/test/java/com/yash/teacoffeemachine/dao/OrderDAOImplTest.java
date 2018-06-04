@@ -2,7 +2,6 @@ package com.yash.teacoffeemachine.dao;
 
 import static org.junit.Assert.assertEquals;
 
-import org.apache.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,8 +11,6 @@ import com.yash.teacoffeemachine.enumeration.Drink;
 import com.yash.teacoffeemachine.exception.NullObjectException;
 
 public class OrderDAOImplTest {
-
-
 	
 	private OrderDAO orderDAO;
 

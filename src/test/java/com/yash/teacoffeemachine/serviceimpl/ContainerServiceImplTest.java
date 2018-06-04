@@ -74,7 +74,6 @@ public class ContainerServiceImplTest {
 
 	@Test
 	public void containerStatus_ShouldReturnSizeOfContainersList() {
-
 		List<Container> containers = Arrays.asList(new Container(Ingredient.COFFEE, 2000, 2000),
 				new Container(Ingredient.MILK, 10000, 10000), new Container(Ingredient.TEA, 2000, 2000),
 				new Container(Ingredient.WATER, 15000, 15000), new Container(Ingredient.SUGAR, 8000, 8000));
