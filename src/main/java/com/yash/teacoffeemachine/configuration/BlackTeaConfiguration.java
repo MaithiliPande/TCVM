@@ -3,14 +3,11 @@ package com.yash.teacoffeemachine.configuration;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.log4j.Logger;
-
 import com.yash.teacoffeemachine.enumeration.Drink;
 import com.yash.teacoffeemachine.enumeration.Ingredient;
 
 public class BlackTeaConfiguration extends AbstractDrinkConfiguration {
 	
-	Logger logger = Logger.getLogger(BlackTeaConfiguration.class);
 	
 	private static IDrinkConfiguration drinkConfigurer;
 	public static final double TEA_CONSUMPTION = 3;
@@ -38,7 +35,6 @@ public class BlackTeaConfiguration extends AbstractDrinkConfiguration {
 		ingredientConsumption.put(Ingredient.WATER, WATER_CONSUMPTION);
 		ingredientConsumption.put(Ingredient.SUGAR, SUGAR_CONSUMPTION);
 		setIngredientConsumption(ingredientConsumption);
-		logger.info("Ingredient consumption is set for Black Tea");
 	}
 
 	@Override
@@ -48,19 +44,16 @@ public class BlackTeaConfiguration extends AbstractDrinkConfiguration {
 		ingredientWastage.put(Ingredient.WATER, WATER_WASTAGE);
 		ingredientWastage.put(Ingredient.SUGAR, SUGAR_WASTAGE);
 		setIngredientWastage(ingredientWastage);
-		logger.info("Ingredient wastage is set for Black Tea");
 	}
 
 	@Override
 	public void configDrinkType() {
 		setDrinkType(Drink.BLACK_TEA);
-		logger.info("Drink type is set for Black Tea");
 	}
 
 	@Override
 	public void configDrinkRate() {
 		setDrinkRate(RATE);
-		logger.info("Rate is set for Black Tea");
 	}
 
 }

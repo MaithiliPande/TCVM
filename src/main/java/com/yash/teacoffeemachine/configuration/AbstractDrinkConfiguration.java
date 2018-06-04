@@ -2,8 +2,6 @@ package com.yash.teacoffeemachine.configuration;
 
 import java.util.Map;
 
-import org.apache.log4j.Logger;
-
 import com.yash.teacoffeemachine.enumeration.Drink;
 import com.yash.teacoffeemachine.enumeration.Ingredient;
 
