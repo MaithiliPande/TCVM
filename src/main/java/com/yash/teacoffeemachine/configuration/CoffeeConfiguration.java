@@ -41,7 +41,7 @@ public class CoffeeConfiguration extends AbstractDrinkConfiguration {
 		ingredientConsumption.put(Ingredient.MILK, MILK_CONSUMPTION);
 		ingredientConsumption.put(Ingredient.SUGAR, SUGAR_CONSUMPTION);
 		setIngredientConsumption(ingredientConsumption);
-		logger.info("Ingredient consumption is set for Coffee");
+		
 	}
 
 	@Override
@@ -52,19 +52,19 @@ public class CoffeeConfiguration extends AbstractDrinkConfiguration {
 		ingredientWastage.put(Ingredient.MILK, MILK_WASTAGE);
 		ingredientWastage.put(Ingredient.SUGAR, SUGAR_WASTAGE);
 		setIngredientWastage(ingredientWastage);
-		logger.info("Ingredient wastage is set for Coffee");
+		
 	}
 
 	@Override
 	public void configDrinkType() {
 		setDrinkType(Drink.COFFEE);
-		logger.info("Drink Type is set for Coffee");
+		
 	}
 
 	@Override
 	public void configDrinkRate() {
 		setDrinkRate(RATE);
-		logger.info("Rate is set for Coffee");
+		
 		
 	}
 	

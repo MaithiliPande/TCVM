@@ -10,7 +10,7 @@ import com.yash.teacoffeemachine.enumeration.Ingredient;
 
 public class TeaConfiguration extends AbstractDrinkConfiguration {
 	
-//	Logger logger = Logger.getLogger(TeaConfiguration.class);
+
 	private static IDrinkConfiguration drinkConfigurer;
 
 	public static final double WATER_CONSUMPTION = 60;
@@ -41,7 +41,7 @@ public class TeaConfiguration extends AbstractDrinkConfiguration {
 		ingredientConsumption.put(Ingredient.SUGAR, SUGAR_CONSUMPTION);
 		ingredientConsumption.put(Ingredient.WATER, WATER_CONSUMPTION);
 		setIngredientConsumption(ingredientConsumption);
-//		logger.info("Ingredient consumption is set for Tea");
+
 	}
 
 	@Override
@@ -52,19 +52,19 @@ public class TeaConfiguration extends AbstractDrinkConfiguration {
 		ingredientWastage.put(Ingredient.SUGAR, SUGAR_WASTAGE);
 		ingredientWastage.put(Ingredient.WATER, WATER_WASTAGE);
 		setIngredientWastage(ingredientWastage);
-//		logger.info("Ingredient wastage is set for Tea");
+
 	}
 
 	@Override
 	public void configDrinkType() {
 		setDrinkType(Drink.TEA);
-//		logger.info("Drink Type is set for Tea");
+
 	}
 
 	@Override
 	public void configDrinkRate() {
 		setDrinkRate(RATE);
-//		logger.info("Rate is set for Tea");
+
 	}
 
 

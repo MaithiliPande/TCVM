@@ -10,7 +10,6 @@ import com.yash.teacoffeemachine.enumeration.Ingredient;
 
 public class BlackCoffeeCofiguration extends AbstractDrinkConfiguration {
 	
-	Logger logger = Logger.getLogger(BlackCoffeeCofiguration.class);
 
 	private static IDrinkConfiguration drinkConfigurer;
 	public static final double WATER_CONSUMPTION = 100;
@@ -38,7 +37,6 @@ public class BlackCoffeeCofiguration extends AbstractDrinkConfiguration {
 		ingredientConsumption.put(Ingredient.WATER, WATER_CONSUMPTION);
 		ingredientConsumption.put(Ingredient.SUGAR, SUGAR_CONSUMPTION);
 		setIngredientConsumption(ingredientConsumption);
-		logger.info("Ingrdient consumption is set for Black Coffee");
 	}
 
 	@Override
@@ -48,20 +46,17 @@ public class BlackCoffeeCofiguration extends AbstractDrinkConfiguration {
 		ingredientWastage.put(Ingredient.WATER, WATER_WASTAGE);
 		ingredientWastage.put(Ingredient.SUGAR, SUGAR_WASTAGE);
 		setIngredientWastage(ingredientWastage);
-		logger.info("Ingrdient wastage is set for Black Coffee");
 	}
 
 	@Override
 	public void configDrinkType() {
 		setDrinkType(Drink.BLACK_COFFEE);
-		logger.info("Drink type is set for Black Coffee");
 	}
 
 	@Override
 	public void configDrinkRate() {
 		
 		setDrinkRate(RATE);
-		logger.info("Drink Rate is set for Black Coffee");
 	}
 
 }

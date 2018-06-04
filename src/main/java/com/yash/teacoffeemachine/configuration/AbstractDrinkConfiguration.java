@@ -9,7 +9,6 @@ import com.yash.teacoffeemachine.enumeration.Ingredient;
 
 public abstract class AbstractDrinkConfiguration implements IDrinkConfiguration {
 	
-	Logger logger = Logger.getLogger(AbstractDrinkConfiguration.class);
 	
 	private Map<Ingredient, Double> ingredientConsumption;
 

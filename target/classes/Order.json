@@ -1,1 +1,1 @@
-[{"quantity":2,"drink":"TEA","orderDate":"Jun 4, 2018 5:33:31 PM","status":true,"totalAmount":20.0}]
+[{"quantity":2,"drink":"TEA","orderDate":"Jun 4, 2018 5:33:31 PM","status":true,"totalAmount":20.0},{"quantity":5,"drink":"TEA","orderDate":"Jun 4, 2018 6:32:43 PM","status":true},{"quantity":1,"drink":"TEA","orderDate":"Jun 4, 2018 6:35:32 PM","status":true,"totalAmount":10.0}]
