@@ -1,0 +1,9 @@
+1. Make Tea
+2. Make Coffee
+3. Make Black Tea
+4. Make Black Coffee
+5. Refill Container
+6. Container Status
+7. Exit TCVM
+
+Enter your choice:
