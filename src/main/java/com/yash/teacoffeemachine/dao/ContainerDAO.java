@@ -6,7 +6,6 @@ import com.yash.teacoffeemachine.domain.Container;
 import com.yash.teacoffeemachine.enumeration.Ingredient;
 
 public interface ContainerDAO {
-	public Container getContainer(Ingredient ingredient);
 
 	public Container updateContainer(Ingredient ingredient, Container container);
 

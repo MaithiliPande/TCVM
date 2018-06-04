@@ -22,12 +22,6 @@ public class ContianerDAOImplTest {
 	}
 
 	@Test(expected = NullObjectException.class)
-	public void getContainer_IngredientGive_ShouldThrowNullFieldException() {
-		Ingredient ingredient = null;
-		containerDAO.getContainer(ingredient);
-	}
-
-	@Test(expected = NullObjectException.class)
 	public void updateContainer_IngredientIsNullAndContainerIsNullGiven_ShouldThrowNullObjectException() {
 		Ingredient ingredient = null;
 		Container container = null;

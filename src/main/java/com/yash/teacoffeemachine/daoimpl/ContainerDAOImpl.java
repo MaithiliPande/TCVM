@@ -39,15 +39,6 @@ public class ContainerDAOImpl implements ContainerDAO {
 	}
 
 	@Override
-	public Container getContainer(Ingredient ingredient) {
-		if (ingredient == null) {
-			throw new NullObjectException("Ingredient Field can not be null");
-		}
-
-		return null;
-	}
-
-	@Override
 	public Container updateContainer(Ingredient ingredient, Container givenContainer) {
 		if (ingredient == null && givenContainer == null) {
 			logger.error("Ingredient and givenContianer are null");
