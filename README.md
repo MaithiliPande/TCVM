@@ -1,6 +1,6 @@
 # Tea Coffee Vending Machine
 
-###Problem Statement
+### Problem Statement
 Tea Coffee Vending machine is used for making tea and coffee. Now-a-days Tea-Coffee vending machine is a common need of an organization/ refreshment stall, where one can easily serve different flavor of tea and coffee drink.
 Here we have a simulator of tea-coffee vending machine. The TCVM has different containers to contain material needed for making tea-coffee. When system is started it initializes with material. It saves orders and list of contianers
 
