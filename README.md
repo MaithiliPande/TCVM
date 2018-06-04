@@ -15,9 +15,10 @@ Here we have a simulator of tea-coffee vending machine. The TCVM has different c
  Exit TCVM
 
 ### Use Case
-alert(https://github.com/MaithiliPande/TCVM/blob/master/TCVM.png)
 
-### Running The Application
+![tcvm use case]()
+
+###
 1. Download the zip by clicking on Clone or Download  Download as Zip.
 2. Extract the downloaded zip file.
 3. Open Eclipse. Click on File  Import  Existing Maven Projects.
