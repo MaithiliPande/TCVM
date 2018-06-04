@@ -16,7 +16,7 @@ Here we have a simulator of tea-coffee vending machine. The TCVM has different c
 
 ### Use Case
 
-![tcvm use case]()
+![tcvm use case](https://github.com/MaithiliPande/TCVM/blob/master/TCVM.png)
 
 ###
 1. Download the zip by clicking on Clone or Download  Download as Zip.
